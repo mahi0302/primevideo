@@ -1,0 +1,70 @@
+#authBlock {
+  width: 360px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+#authBlock article {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 360px;
+}
+
+#authBlock article h2 {
+  padding: 10px 0;
+  font-size: 27px;
+  letter-spacing: 1.4px;
+}
+
+#authBlock article div {
+  padding: 5px 0;
+}
+#authBlock article div label {
+  display: block;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+#authBlock article div input {
+  width: 100%;
+  border: 1px solid #999;
+  padding: 7px;
+  border-radius: 2px;
+  margin: 2px 0;
+}
+
+#authBlock article div button {
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 7px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid;
+  margin-top: 7px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+#authBlock article div p {
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+#authBlock article a {
+  text-decoration: none;
+  color: #0066c0;
+}
+#authBlock article a:hover {
+  text-decoration: underline;
+}
+
+#fp{
+  margin-left: 50%;
+}
